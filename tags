@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BYTE_ORDER	md5.cpp	57;"	d	file:
+BYTE_ORDER	md5.cpp	59;"	d	file:
+BYTE_ORDER	md5.cpp	61;"	d	file:
+F	md5.cpp	202;"	d	file:
+G	md5.cpp	228;"	d	file:
+H	md5.cpp	254;"	d	file:
+I	md5.cpp	280;"	d	file:
+ROTATE_LEFT	md5.cpp	197;"	d	file:
+SET	md5.cpp	203;"	d	file:
+SET	md5.cpp	223;"	d	file:
+SET	md5.cpp	229;"	d	file:
+SET	md5.cpp	249;"	d	file:
+SET	md5.cpp	255;"	d	file:
+SET	md5.cpp	275;"	d	file:
+SET	md5.cpp	281;"	d	file:
+SET	md5.cpp	301;"	d	file:
+T1	md5.cpp	65;"	d	file:
+T10	md5.cpp	74;"	d	file:
+T11	md5.cpp	75;"	d	file:
+T12	md5.cpp	76;"	d	file:
+T13	md5.cpp	77;"	d	file:
+T14	md5.cpp	78;"	d	file:
+T15	md5.cpp	79;"	d	file:
+T16	md5.cpp	80;"	d	file:
+T17	md5.cpp	81;"	d	file:
+T18	md5.cpp	82;"	d	file:
+T19	md5.cpp	83;"	d	file:
+T2	md5.cpp	66;"	d	file:
+T20	md5.cpp	84;"	d	file:
+T21	md5.cpp	85;"	d	file:
+T22	md5.cpp	86;"	d	file:
+T23	md5.cpp	87;"	d	file:
+T24	md5.cpp	88;"	d	file:
+T25	md5.cpp	89;"	d	file:
+T26	md5.cpp	90;"	d	file:
+T27	md5.cpp	91;"	d	file:
+T28	md5.cpp	92;"	d	file:
+T29	md5.cpp	93;"	d	file:
+T3	md5.cpp	67;"	d	file:
+T30	md5.cpp	94;"	d	file:
+T31	md5.cpp	95;"	d	file:
+T32	md5.cpp	96;"	d	file:
+T33	md5.cpp	97;"	d	file:
+T34	md5.cpp	98;"	d	file:
+T35	md5.cpp	99;"	d	file:
+T36	md5.cpp	100;"	d	file:
+T37	md5.cpp	101;"	d	file:
+T38	md5.cpp	102;"	d	file:
+T39	md5.cpp	103;"	d	file:
+T4	md5.cpp	68;"	d	file:
+T40	md5.cpp	104;"	d	file:
+T41	md5.cpp	105;"	d	file:
+T42	md5.cpp	106;"	d	file:
+T43	md5.cpp	107;"	d	file:
+T44	md5.cpp	108;"	d	file:
+T45	md5.cpp	109;"	d	file:
+T46	md5.cpp	110;"	d	file:
+T47	md5.cpp	111;"	d	file:
+T48	md5.cpp	112;"	d	file:
+T49	md5.cpp	113;"	d	file:
+T5	md5.cpp	69;"	d	file:
+T50	md5.cpp	114;"	d	file:
+T51	md5.cpp	115;"	d	file:
+T52	md5.cpp	116;"	d	file:
+T53	md5.cpp	117;"	d	file:
+T54	md5.cpp	118;"	d	file:
+T55	md5.cpp	119;"	d	file:
+T56	md5.cpp	120;"	d	file:
+T57	md5.cpp	121;"	d	file:
+T58	md5.cpp	122;"	d	file:
+T59	md5.cpp	123;"	d	file:
+T6	md5.cpp	70;"	d	file:
+T60	md5.cpp	124;"	d	file:
+T61	md5.cpp	125;"	d	file:
+T62	md5.cpp	126;"	d	file:
+T63	md5.cpp	127;"	d	file:
+T64	md5.cpp	128;"	d	file:
+T7	md5.cpp	71;"	d	file:
+T8	md5.cpp	72;"	d	file:
+T9	md5.cpp	73;"	d	file:
+T_MASK	md5.cpp	64;"	d	file:
+abcd	md5.h	/^	md5_word_t abcd[4];		\/* digest buffer *\/$/;"	m	struct:md5_state_s
+buf	md5.h	/^	md5_byte_t buf[64];		\/* accumulate block *\/$/;"	m	struct:md5_state_s
+count	md5.h	/^	md5_word_t count[2];	\/* message length in bits, lsw first *\/$/;"	m	struct:md5_state_s
+main	main.c	/^int main(int argc, char* argv[])$/;"	f
+md5_INCLUDED	md5.h	51;"	d
+md5_append	md5.cpp	/^		md5_append(md5_state_t *pms, const md5_byte_t *data, int nbytes)$/;"	f
+md5_byte_t	md5.h	/^typedef unsigned char md5_byte_t; \/* 8-bit byte *\/$/;"	t
+md5_finish	md5.cpp	/^		md5_finish(md5_state_t *pms, md5_byte_t digest[16])$/;"	f
+md5_init	md5.cpp	/^		md5_init(md5_state_t *pms)$/;"	f
+md5_process	md5.cpp	/^md5_process(md5_state_t *pms, const md5_byte_t *data \/*[64]*\/)$/;"	f	file:
+md5_state_s	md5.h	/^typedef struct md5_state_s {$/;"	s
+md5_state_t	md5.h	/^} md5_state_t;$/;"	t	typeref:struct:md5_state_s
+md5_word_t	md5.h	/^typedef unsigned int md5_word_t; \/* 32-bit word *\/$/;"	t
